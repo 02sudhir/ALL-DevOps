@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudhir's Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8; /* Updated background color */
+        }
+
+        header {
+            background-color: #4285f4; /* Updated header color */
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            padding: 2em;
+            margin: 2em;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px; /* Added border-radius for rounded corners */
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .project {
+            margin-bottom: 1em;
+        }
+
+        .project img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px; /* Added border-radius for rounded corners */
+        }
+
+        .review {
+            margin-bottom: 1em;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px); /* Added a slight vertical animation */
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animated {
+            animation: fadeIn 1s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sudhir's Portfolio</h1>
+        <img src="https://myterraformprojectweatherapp2024.s3.amazonaws.com/thor.png" alt="Thor Project Image">
+
+    </header>
+
+    <section id="about" class="animated">
+        <h2>About Me</h2>
+        <p>Add a brief introduction about Sudhir here.</p>
+    </section>
+
+    <section id="projects" class="animated">
+        <h2>Projects</h2>
+
+        <div class="project">
+           <!-- <img src="https://myterraformprojectweatherapp2024.s3.amazonaws.com/thor.png" alt="Thor Project Image"> -->
+            <h3>Project 1</h3>
+            <p>Description of Project 1.</p>
+        </div>
+
+        <div class="project">
+            <img src="project2.jpg" alt="weather-app">
+            <h3>Project 2</h3>
+            <p>Description of Project 2.</p>
+        </div>
+        <!-- Add more projects as needed -->
+
+    </section>
+
+    <section id="reviews" class="animated">
+        <h2>Client Reviews</h2>
+
+        <div class="review">
+            <p>"Sudhir did an amazing job on our project. Very professional and efficient."</p>
+            <p>- Client 1</p>
+        </div>
+
+        <div class="review">
+            <p>"Excellent communication and high-quality work. Highly recommend Sudhir."</p>
+            <p>- Client 2</p>
+        </div>
+        <!-- Add more reviews as needed -->
+
+    </section>
+
+</body>
+</html>
